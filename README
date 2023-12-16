@@ -1,4 +1,4 @@
-# MyApp Helm Chart
+# Goapp-chart Helm Chart
 
 This Helm Chart deploys the MyApp application.
 
@@ -15,6 +15,6 @@ This Helm Chart deploys the MyApp application.
 ## Installing the Chart
 
 ```bash
-helm install myapp-release ./myapp-chart --values values.yaml
+helm install myapp-release ./goapp-chart --values values.yaml
 
 
