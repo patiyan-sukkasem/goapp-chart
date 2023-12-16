@@ -1,0 +1,20 @@
+# MyApp Helm Chart
+
+This Helm Chart deploys the MyApp application.
+
+## Configuration
+
+| Parameter                   | Description                                   | Default                 |
+|-----------------------------|-----------------------------------------------|-------------------------|
+| `image.repository`          | Docker image repository                      | `pepoolife/goapp`      |
+| `image.tag`                 | Docker image tag                             | `latest`                |
+| `service.name`              | Service name                                 | `myapp-service`         |
+| `service.type`              | Service type (e.g., ClusterIP, NodePort)      | `ClusterIP`             |
+| `service.port`              | Service port                                 | `8080`                  |
+
+## Installing the Chart
+
+```bash
+helm install myapp-release ./myapp-chart --values values.yaml
+
+
