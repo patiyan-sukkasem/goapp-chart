@@ -13,8 +13,8 @@ This Helm Chart deploys the MyApp application.
 | `service.port`              | Service port                                 | `8080`                  |
 
 ## Installing the Chart
-
-```bash
 helm install myapp-release ./goapp-chart --values values.yaml
 
+## Uninstall
+helm uninstall myapp-release
 
